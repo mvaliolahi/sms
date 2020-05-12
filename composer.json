@@ -1,0 +1,34 @@
+{
+  "name": "mvaliolahi/sms",
+  "license": "MIT",
+  "description": "PHP SMS Client",
+  "keywords": [
+    "PHP SMS Gateway",
+    "PHP SMS Client",
+    "PHP SMS Gateway Client"
+  ],
+  "homepage": "https://mvaliolahi.ir",
+  "authors": [
+    {
+      "name": "Meysam Valiolahi",
+      "email": "mvaliolahi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mvaliolahi\\SMS\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "6.2"
+  },
+  "require": {
+    "mvaliolahi/http": "v1.0.0"
+  }
+}
